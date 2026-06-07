@@ -1,4 +1,4 @@
-const BASE_URL = 'https://mini-expense-tracker-api-2ubk.onrender.com';
+const BASE_URL = 'https://mini-expense-tracker-api-2ubk.onrender.com/api';
 
 export const getExpenses = async (filters = {}) => {
   const params = new URLSearchParams();
