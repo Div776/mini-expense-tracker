@@ -6,7 +6,7 @@ const app = express();
 const PORT = 3001;
 
 app.use(cors({
-  origin: 'https://mini-expense-tracker-green.vercel.app'
+  origin: '*'
 }));
 app.use(express.json());
 
